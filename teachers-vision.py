@@ -77,7 +77,7 @@ def process_folder(folder_path, api_key):
 
 # Main Execution
 folder_path = './testfolder'  # Replace with the path to your folder containing PDFs
-openai.api_key = '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'  # Replace with your API key
+openai.api_key = ''  # Replace with your API key
 all_summaries = process_folder(folder_path, openai.api_key)
 
 # Print or process the summaries as needed
